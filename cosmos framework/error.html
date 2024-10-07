@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cosmos SCSS Framework : Error</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="scripts/css/style.css">
+    </head>
+    <body>
+        <header>
+            <section class="v-align--grid col-2-auto">
+                <a id="logo" href="index.html">
+                    <div class="large">Cosmos SCSS Framework</div> 
+                    <div class="small">a Framework utilizing SCSS and Block, Element, Modifier</div> 
+                </a>
+    
+                <nav> 
+                    <input id="toggle--state" type="checkbox"/>
+                    <label id="toggle" for="toggle--state">                          
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+        
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="category">
+                            <a href="#">Developer</a>
+                            <ul class="dropdown">                            
+                                <a href=".dev-pages.html"><li>Pages</li></a>                            
+                                <a href=".dev-body.html"><li>Layout</li></a>
+                                <a href=".dev-elements.html"><li>Elements</li></a>
+                                <a href=".dev-style.html"><li>Styleguide</li></a>
+                                <a href=".dev-no-js.html"><li>No JavaScript</li></a>   
+                                <a href="error.html"><li>Error</li></a>   
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+    <section class="center">
+        <h2>Error Status</h2>              
+    </section>
+
+    <section class="center">
+        <b>{Status Code} : 404</b>    
+        <p>{Error Message} : The page you were looking for<br/>could not be found.</p>          
+    </section>
+
+    <section class="center">
+        <a class="js-enabled" href="javascript:history.back()">Go Back</a>
+        <a class="js-disabled" href="index.html">Go Home</a>
+    </section>
+
+    <script src="scripts/javascript/utilities/no-js.js"></script>
+
+    <!-- Developer -->
+    <script src="scripts/javascript/developer/debug-overflow.js"></script>
+        
+</body>
+</html>

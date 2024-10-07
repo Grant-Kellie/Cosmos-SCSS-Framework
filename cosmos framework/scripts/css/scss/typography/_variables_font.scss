@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+// @title: Font Family
+$fallback: sans-serif;
+$font-light: 'font-light', $fallback;
+$font-regular: 'font-regular', $fallback;
+$font-medium: 'font-medium', $fallback;
+$font-bold: 'font-bold', $fallback;
+
+// @title: Font Size
+$font-small: 12px;
+$font-medium: 16px;
+$font-large: 24px;
+
+// @title: Font weights
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;

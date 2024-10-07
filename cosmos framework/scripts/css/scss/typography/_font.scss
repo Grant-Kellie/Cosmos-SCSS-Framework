@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+// @title: Font Face Definitions
+// @description: Define custom fonts for the project.
+
+// Font-Light
+@font-face {
+    font-family: 'font-light';
+    src: url('../font/font-face/font.ttf') format('truetype');
+    font-weight: 300; /* Adjust weight as needed */
+    font-style: normal;
+}
+
+// Font-Regular
+@font-face {
+    font-family: 'font-regular';
+    src: url('../font/font-face/font.ttf') format('truetype');
+    font-weight: 400; /* Adjust weight as needed */
+    font-style: normal;
+}
+
+// Font-Bold
+@font-face {
+    font-family: 'font-bold';
+    src: url('../font/font-face/font.ttf') format('truetype');
+    font-weight: 700; /* Adjust weight as needed */
+    font-style: normal;
+}
